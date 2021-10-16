@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		34D4B0F426FE5C500088C8BD /* maritacaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4B0E426FE5C4D0088C8BD /* maritacaApp.swift */; };
-		34D4B0F526FE5C500088C8BD /* maritacaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4B0E426FE5C4D0088C8BD /* maritacaApp.swift */; };
+		34D4B0F426FE5C500088C8BD /* MaritacaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4B0E426FE5C4D0088C8BD /* MaritacaApp.swift */; };
+		34D4B0F526FE5C500088C8BD /* MaritacaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4B0E426FE5C4D0088C8BD /* MaritacaApp.swift */; };
 		34D4B0F626FE5C500088C8BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4B0E526FE5C4D0088C8BD /* ContentView.swift */; };
 		34D4B0F726FE5C500088C8BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4B0E526FE5C4D0088C8BD /* ContentView.swift */; };
 		34D4B0F826FE5C500088C8BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34D4B0E626FE5C500088C8BD /* Assets.xcassets */; };
@@ -16,11 +16,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		34D4B0E426FE5C4D0088C8BD /* maritacaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maritacaApp.swift; sourceTree = "<group>"; };
+		34D4B0E426FE5C4D0088C8BD /* MaritacaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaritacaApp.swift; sourceTree = "<group>"; };
 		34D4B0E526FE5C4D0088C8BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34D4B0E626FE5C500088C8BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		34D4B0EB26FE5C500088C8BD /* maritaca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maritaca.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		34D4B0F126FE5C500088C8BD /* maritaca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maritaca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34D4B0EB26FE5C500088C8BD /* Maritaca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maritaca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34D4B0F126FE5C500088C8BD /* Maritaca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maritaca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D4B0F326FE5C500088C8BD /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +54,7 @@
 		34D4B0E326FE5C4D0088C8BD /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				34D4B0E426FE5C4D0088C8BD /* maritacaApp.swift */,
+				34D4B0E426FE5C4D0088C8BD /* MaritacaApp.swift */,
 				34D4B0E526FE5C4D0088C8BD /* ContentView.swift */,
 				34D4B0E626FE5C500088C8BD /* Assets.xcassets */,
 			);
@@ -64,8 +64,8 @@
 		34D4B0EC26FE5C500088C8BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				34D4B0EB26FE5C500088C8BD /* maritaca.app */,
-				34D4B0F126FE5C500088C8BD /* maritaca.app */,
+				34D4B0EB26FE5C500088C8BD /* Maritaca.app */,
+				34D4B0F126FE5C500088C8BD /* Maritaca.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,9 +81,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		34D4B0EA26FE5C500088C8BD /* maritaca (iOS) */ = {
+		34D4B0EA26FE5C500088C8BD /* Maritaca (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 34D4B0FC26FE5C500088C8BD /* Build configuration list for PBXNativeTarget "maritaca (iOS)" */;
+			buildConfigurationList = 34D4B0FC26FE5C500088C8BD /* Build configuration list for PBXNativeTarget "Maritaca (iOS)" */;
 			buildPhases = (
 				34D4B0E726FE5C500088C8BD /* Sources */,
 				34D4B0E826FE5C500088C8BD /* Frameworks */,
@@ -93,14 +93,14 @@
 			);
 			dependencies = (
 			);
-			name = "maritaca (iOS)";
+			name = "Maritaca (iOS)";
 			productName = "maritaca (iOS)";
-			productReference = 34D4B0EB26FE5C500088C8BD /* maritaca.app */;
+			productReference = 34D4B0EB26FE5C500088C8BD /* Maritaca.app */;
 			productType = "com.apple.product-type.application";
 		};
-		34D4B0F026FE5C500088C8BD /* maritaca (macOS) */ = {
+		34D4B0F026FE5C500088C8BD /* Maritaca (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 34D4B0FF26FE5C500088C8BD /* Build configuration list for PBXNativeTarget "maritaca (macOS)" */;
+			buildConfigurationList = 34D4B0FF26FE5C500088C8BD /* Build configuration list for PBXNativeTarget "Maritaca (macOS)" */;
 			buildPhases = (
 				34D4B0ED26FE5C500088C8BD /* Sources */,
 				34D4B0EE26FE5C500088C8BD /* Frameworks */,
@@ -110,9 +110,9 @@
 			);
 			dependencies = (
 			);
-			name = "maritaca (macOS)";
+			name = "Maritaca (macOS)";
 			productName = "maritaca (macOS)";
-			productReference = 34D4B0F126FE5C500088C8BD /* maritaca.app */;
+			productReference = 34D4B0F126FE5C500088C8BD /* Maritaca.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +133,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 34D4B0E226FE5C4D0088C8BD /* Build configuration list for PBXProject "maritaca" */;
+			buildConfigurationList = 34D4B0E226FE5C4D0088C8BD /* Build configuration list for PBXProject "Maritaca" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,8 +146,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				34D4B0EA26FE5C500088C8BD /* maritaca (iOS) */,
-				34D4B0F026FE5C500088C8BD /* maritaca (macOS) */,
+				34D4B0EA26FE5C500088C8BD /* Maritaca (iOS) */,
+				34D4B0F026FE5C500088C8BD /* Maritaca (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -177,7 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34D4B0F626FE5C500088C8BD /* ContentView.swift in Sources */,
-				34D4B0F426FE5C500088C8BD /* maritacaApp.swift in Sources */,
+				34D4B0F426FE5C500088C8BD /* MaritacaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34D4B0F726FE5C500088C8BD /* ContentView.swift in Sources */,
-				34D4B0F526FE5C500088C8BD /* maritacaApp.swift in Sources */,
+				34D4B0F526FE5C500088C8BD /* MaritacaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +326,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.ronanrodrigo.sandbox.maritaca;
-				PRODUCT_NAME = maritaca;
+				PRODUCT_NAME = Maritaca;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -356,7 +356,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.ronanrodrigo.sandbox.maritaca;
-				PRODUCT_NAME = maritaca;
+				PRODUCT_NAME = Maritaca;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -378,6 +378,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -386,7 +387,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.ronanrodrigo.sandbox.maritaca;
-				PRODUCT_NAME = maritaca;
+				PRODUCT_NAME = Maritaca;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -406,6 +407,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -414,7 +416,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.ronanrodrigo.sandbox.maritaca;
-				PRODUCT_NAME = maritaca;
+				PRODUCT_NAME = Maritaca;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -424,7 +426,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		34D4B0E226FE5C4D0088C8BD /* Build configuration list for PBXProject "maritaca" */ = {
+		34D4B0E226FE5C4D0088C8BD /* Build configuration list for PBXProject "Maritaca" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				34D4B0FA26FE5C500088C8BD /* Debug */,
@@ -433,7 +435,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		34D4B0FC26FE5C500088C8BD /* Build configuration list for PBXNativeTarget "maritaca (iOS)" */ = {
+		34D4B0FC26FE5C500088C8BD /* Build configuration list for PBXNativeTarget "Maritaca (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				34D4B0FD26FE5C500088C8BD /* Debug */,
@@ -442,7 +444,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		34D4B0FF26FE5C500088C8BD /* Build configuration list for PBXNativeTarget "maritaca (macOS)" */ = {
+		34D4B0FF26FE5C500088C8BD /* Build configuration list for PBXNativeTarget "Maritaca (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				34D4B10026FE5C500088C8BD /* Debug */,

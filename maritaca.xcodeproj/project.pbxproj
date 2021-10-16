@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34D2AA0F271B173500C7AE5B /* PlayerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2AA0E271B173500C7AE5B /* PlayerControlsView.swift */; };
+		34D2AA10271B173500C7AE5B /* PlayerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2AA0E271B173500C7AE5B /* PlayerControlsView.swift */; };
 		34D4B0F426FE5C500088C8BD /* MaritacaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4B0E426FE5C4D0088C8BD /* MaritacaApp.swift */; };
 		34D4B0F526FE5C500088C8BD /* MaritacaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4B0E426FE5C4D0088C8BD /* MaritacaApp.swift */; };
 		34D4B0F626FE5C500088C8BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4B0E526FE5C4D0088C8BD /* ContentView.swift */; };
@@ -42,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34D2AA0D271B172400C7AE5B /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				34D2AA0E271B173500C7AE5B /* PlayerControlsView.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
 		34D4B0DE26FE5C4D0088C8BD = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +188,7 @@
 			files = (
 				34D4B0F626FE5C500088C8BD /* ContentView.swift in Sources */,
 				34D4B0F426FE5C500088C8BD /* MaritacaApp.swift in Sources */,
+				34D2AA0F271B173500C7AE5B /* PlayerControlsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +198,7 @@
 			files = (
 				34D4B0F726FE5C500088C8BD /* ContentView.swift in Sources */,
 				34D4B0F526FE5C500088C8BD /* MaritacaApp.swift in Sources */,
+				34D2AA10271B173500C7AE5B /* PlayerControlsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

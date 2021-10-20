@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		34D2AA0F271B173500C7AE5B /* PlayerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2AA0E271B173500C7AE5B /* PlayerControlsView.swift */; };
-		34D2AA10271B173500C7AE5B /* PlayerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2AA0E271B173500C7AE5B /* PlayerControlsView.swift */; };
+		34C80595271FA03C0058CB65 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C80593271FA03C0058CB65 /* PlayerView.swift */; };
+		34C80596271FA03C0058CB65 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C80593271FA03C0058CB65 /* PlayerView.swift */; };
+		34C80597271FA03C0058CB65 /* PlayerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C80594271FA03C0058CB65 /* PlayerControlsView.swift */; };
+		34C80598271FA03C0058CB65 /* PlayerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C80594271FA03C0058CB65 /* PlayerControlsView.swift */; };
+		34C8059C271FA2140058CB65 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C8059B271FA2140058CB65 /* PlayerViewModel.swift */; };
+		34C8059D271FA2140058CB65 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C8059B271FA2140058CB65 /* PlayerViewModel.swift */; };
+		34C8059F271FA42E0058CB65 /* PlayerControlsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C8059E271FA42E0058CB65 /* PlayerControlsViewModel.swift */; };
+		34C805A0271FA42E0058CB65 /* PlayerControlsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C8059E271FA42E0058CB65 /* PlayerControlsViewModel.swift */; };
+		34D2AA0F271B173500C7AE5B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		34D2AA10271B173500C7AE5B /* (null) in Sources */ = {isa = PBXBuildFile; };
 		34D4B0F426FE5C500088C8BD /* MaritacaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4B0E426FE5C4D0088C8BD /* MaritacaApp.swift */; };
 		34D4B0F526FE5C500088C8BD /* MaritacaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4B0E426FE5C4D0088C8BD /* MaritacaApp.swift */; };
 		34D4B0F626FE5C500088C8BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4B0E526FE5C4D0088C8BD /* ContentView.swift */; };
@@ -18,6 +26,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34C80593271FA03C0058CB65 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		34C80594271FA03C0058CB65 /* PlayerControlsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerControlsView.swift; sourceTree = "<group>"; };
+		34C8059B271FA2140058CB65 /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		34C8059E271FA42E0058CB65 /* PlayerControlsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlsViewModel.swift; sourceTree = "<group>"; };
 		34D4B0E426FE5C4D0088C8BD /* MaritacaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaritacaApp.swift; sourceTree = "<group>"; };
 		34D4B0E526FE5C4D0088C8BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34D4B0E626FE5C500088C8BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,12 +56,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		34D2AA0D271B172400C7AE5B /* Player */ = {
+		34C80592271FA03C0058CB65 /* Player */ = {
 			isa = PBXGroup;
 			children = (
-				34D2AA0E271B173500C7AE5B /* PlayerControlsView.swift */,
+				34C8059A271FA1FB0058CB65 /* ViewModels */,
+				34C80599271FA1F10058CB65 /* Views */,
 			);
 			path = Player;
+			sourceTree = "<group>";
+		};
+		34C80599271FA1F10058CB65 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				34C80593271FA03C0058CB65 /* PlayerView.swift */,
+				34C80594271FA03C0058CB65 /* PlayerControlsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		34C8059A271FA1FB0058CB65 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				34C8059B271FA2140058CB65 /* PlayerViewModel.swift */,
+				34C8059E271FA42E0058CB65 /* PlayerControlsViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		34D4B0DE26FE5C4D0088C8BD = {
@@ -64,6 +95,7 @@
 		34D4B0E326FE5C4D0088C8BD /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				34C80592271FA03C0058CB65 /* Player */,
 				34D4B0E426FE5C4D0088C8BD /* MaritacaApp.swift */,
 				34D4B0E526FE5C4D0088C8BD /* ContentView.swift */,
 				34D4B0E626FE5C500088C8BD /* Assets.xcassets */,
@@ -143,7 +175,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 34D4B0E226FE5C4D0088C8BD /* Build configuration list for PBXProject "Maritaca" */;
+			buildConfigurationList = 34D4B0E226FE5C4D0088C8BD /* Build configuration list for PBXProject "maritaca" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -187,8 +219,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				34D4B0F626FE5C500088C8BD /* ContentView.swift in Sources */,
+				34C80597271FA03C0058CB65 /* PlayerControlsView.swift in Sources */,
+				34C8059F271FA42E0058CB65 /* PlayerControlsViewModel.swift in Sources */,
 				34D4B0F426FE5C500088C8BD /* MaritacaApp.swift in Sources */,
-				34D2AA0F271B173500C7AE5B /* PlayerControlsView.swift in Sources */,
+				34C8059C271FA2140058CB65 /* PlayerViewModel.swift in Sources */,
+				34D2AA0F271B173500C7AE5B /* (null) in Sources */,
+				34C80595271FA03C0058CB65 /* PlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +233,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				34D4B0F726FE5C500088C8BD /* ContentView.swift in Sources */,
+				34C80598271FA03C0058CB65 /* PlayerControlsView.swift in Sources */,
+				34C805A0271FA42E0058CB65 /* PlayerControlsViewModel.swift in Sources */,
 				34D4B0F526FE5C500088C8BD /* MaritacaApp.swift in Sources */,
-				34D2AA10271B173500C7AE5B /* PlayerControlsView.swift in Sources */,
+				34C8059D271FA2140058CB65 /* PlayerViewModel.swift in Sources */,
+				34D2AA10271B173500C7AE5B /* (null) in Sources */,
+				34C80596271FA03C0058CB65 /* PlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +478,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		34D4B0E226FE5C4D0088C8BD /* Build configuration list for PBXProject "Maritaca" */ = {
+		34D4B0E226FE5C4D0088C8BD /* Build configuration list for PBXProject "maritaca" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				34D4B0FA26FE5C500088C8BD /* Debug */,
